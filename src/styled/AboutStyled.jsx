@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
-const AboutStyle = styled.div `
+const AboutStyle = styled.div`
     text-align:center;
-`;
+    `
+    ;
 
-const AboutAvatar = styled.div `
+const AboutAvatar = styled.div`
     padding 2em 0 0 0;
+    
 `;
 
-const AboutImg = styled.img `
+const AboutImg = styled.img`
     border-radius: 100%;
     width: 160px;
     height: 160px;
@@ -19,38 +21,40 @@ const AboutImg = styled.img `
     object-fit:cover;
 `
 
-const AboutName = styled.div `
+const AboutName = styled.div`
     text-align: center;
 `
 
-const AboutH2 = styled.h2 `
+const AboutH2 = styled.h2`
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
     color: #448AFF;
 `;
- 
-const AboutProfession = styled.p `
+
+const AboutProfession = styled.p`
     margin: .2em 0 1em 0;
     letter-spacing: 1.6px;
     font-weight: 300;
     color: #448AFF;
+    
 `;
- 
-const AboutLocation = styled.p `
+
+const AboutLocation = styled.p`
     color: #757575;
     font-size: 1em;
     font-weight: 400;
+    
 `;
 
 
-const AboutSocial = styled.img `
+const AboutSocial = styled.img`
     width:30px;
-    margin-left:2%;
+    margin-left:4%;
 `
 
-const AboutContainer = styled.div `
+const AboutContainer = styled.div`
     width:25%;
 `
 export const AboutS = AboutStyle
