@@ -56,6 +56,11 @@ const AboutSocial = styled.img`
 
 const AboutContainer = styled.div`
     width:25%;
+
+    @media (max-width: 1024px) {
+        width:100%;
+        margin-bottom:3%;
+      }
 `
 export const AboutS = AboutStyle
 export const Avatar = AboutAvatar

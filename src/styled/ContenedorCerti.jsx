@@ -7,6 +7,14 @@ const ContenedorCerti = styled.div `
     float:right;
     border:2px solid violet;
     padding-left:2%;
+
+    @media (max-width: 1024px) {
+        width:100%;
+        margin:auto;
+        text-align:center;
+        padding: 0;
+        
+      }
 `
 
 export const ConteCerti = ContenedorCerti;
